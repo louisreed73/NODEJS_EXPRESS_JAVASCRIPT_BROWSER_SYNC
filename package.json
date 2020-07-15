@@ -1,0 +1,23 @@
+{
+  "name": "Javascript_OOP_Course_00",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --ext html,js --watch public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "lo que me salga del pijo",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "nodemonConfig": {
+    "env": {
+      "PORT": 3000
+    }
+  },
+  "devDependencies": {
+    "reload": "^3.1.0"
+  }
+}

@@ -1,0 +1,299 @@
+
+------------------------------------------------------------------------------------------------------------------------
+FUNDAMENTALS OF TESTING
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+05 Typical Objectives of Testing  7 Objectives---------
+------------------------------------------------------------
+
+** Identify Defects
+
+** Gain Confidence
+
+** Inform StakeHolders
+
+** Prevent Defects
+
+** Verify Requirements Fullfilment
+
+** Compliance
+
+** Validation
+
+------------------------------
+------------------------------
+
+Objectives Depend on:
+
+** Context, ie Component or System being Tested
+
+** Where we are in the Development LifeCycle 
+
+** and Development LifeCycle model used
+
+
+
+------------------------------------------------------------
+06 Why is testing Necessary?----------------------------
+------------------------------------------------------------
+
+
+
+**Reduce the risk of failures during Operation
+
+Testing comprises Dynamic Testing and Static Testing.
+
+AnyONe!!!!  can do both, Static and Dynamic Testing:
+
+Testers, Developers, customers....
+
+Testing increases the likehood software meets the stakeHolders needs and sstisfies requirements.
+
+Design Tests Efectiveness by using proven techniques
+
+Design Tests Efficiency finding deffects with less time, costs, and resources and effort....
+
+
+
+------------------------------------------------------------
+07 Quality Assurance and Testing-----------------------
+------------------------------------------------------------
+
+
+
+Quality Assurance and Testing are Related!!
+
+Work Products are the ingredients of the Software, and better the proccess, the better the work products.... and prevents of deffects...
+
+Quality Control involves Testing...
+
+Test activities are part of the overall software development or maintenance process....
+
+Quality Assurance --Garantia de Calidad--  supports proper testing.
+
+
+
+------------------------------------------------------------
+08 Errors, Deffects and Failures-------------------------
+------------------------------------------------------------
+
+
+
+Errors caused by Humans........................
+
+Those Errors cause a Deffect
+
+Those Deffects can cause a Failure in the Software....
+
+Reasons for Errors are:
+
+**Time pressure
+
+**Human fallibility
+
+**Inexperienced Staff
+
+**Misunderstanding or Miscommunication...
+
+**Complexity of the System
+
+**Complex Interfaces
+
+** New an Unfamiliar Technologies
+
+We use testing to help us to measure the quality of software in terms of the number of defects found,
+the tests run, and the system covered by the tests.
+
+
+Saying that, do you think testing increases the quality of the software?
+The answer is no
+Testing cannot directly remove defects but it just reports it. Hence, testing cannot directly enhance quality
+
+Testing can give confidence in the quality of the software if it finds few or no defects
+
+In addition to failures caused due to defects in the code, failures can also be caused by environmental conditions
+
+when the software is actually working fine but we imagine something is wrong and report a defect
+here we have -----false-positive result) false means something wrong and positive means we found something but it was wrong finding. 
+
+----False negatives are tests that do not detect defects that they should have detected.
+
+
+
+------------------------------------------------------------
+09 Defects, Root Causes and Effects-------------------
+------------------------------------------------------------
+
+
+
+So we analyze the Defects to identify their root causes,
+so that we can reduce the occurrence of similar defects in the future. By focusing on the most significant root causes,
+root cause analysis can lead to process improvements
+that prevent a significant number of future defects from being introduced.
+
+Testing and debugging are different. Executing tests can show failures that are caused by defects in the software.
+
+Debugging is the development activity that finds, analyzes, and fixes such defects.
+
+Subsequent re-testing or confirmation testing checks whether the fixes resolved the defects.
+
+ISO standard (ISO/IEC/IEEE 29119-1) has further information about software testing concepts.
+
+Before I go, I want you to think, what does system testers find? Errors, defects or failures? s
+system testers find failures…they then write a report about that failure to the developer
+
+
+
+------------------------------------------------------------
+10 Test Coverage ------------------------------------------
+------------------------------------------------------------
+
+
+
+
+Test Coverage is an essential part of Software testing.
+
+it is defined as a metric in Software Testing that -measures the amount of testing performed by a set of tests. 
+
+By the amount of testing we mean that what parts of the application program are exercised when we run a group of tests
+
+In simple terms test coverage meassures the effectivness of our testing
+
+Requirements Coverage: Has the software been tested against all requirements
+
+Structural Coverage: Has each design element of the software been exercised during testing classes, functions
+
+implementation Coverage: Has each line of code of the software been exercised during testing or not
+
+But how can we know which requirement has been tested
+
+Well, we need some sort of a map that will show traces between each requirement and each test
+
+such traceability will help know which requirement has been tested by which test case
+
+and which requirement has not been tested at all
+
+such traceability concept can be applied between requirements, design elements, lines of code, test cases and so on.
+
+ We perform Test coverage analysis for the following reasons
+
+To find the areas in specified requirement which is not covered by our tests
+
+to know where we need to create more test cases to increase our test coverage
+
+also we can measure how a change request will affect the software
+
+Identifying a quantitative measure of test coverage, which is an indirect method for quality check
+
+and last identifying meaningless test cases that do not increase coverage
+
+
+
+------------------------------------------------------------
+11 The seven testing principles--------------------------
+------------------------------------------------------------
+
+***Testing shows the presence of defects, not their absence
+
+***Exhaustive testing is impossible
+
+***Early testing saves time and money
+
+***Defect cluster together
+
+***Beware of the pesticide paradox
+
+***Testing is context dependent
+
+***The last principle Absence of errors is a fallacy
+
+A good question could arise now. How Much Testing is Enough?
+
+The answer is It depends on the RISK
+
+The risk of missing important faults
+
+The risk of failure costs
+
+The risk of releasing untested or under-tested software
+
+The risk of losing credibility and market share
+
+The risk of missing a market window
+
+The risk of over-testing, ineffective testing
+
+Every time we should evaluate the risk of the current situation of the software and decide
+
+whether the risk is high or low
+
+If the risk is low and acceptable then we can stop testing and ship the software. Otherwise, we should continue testing
+
+
+
+------------------------------------------------------------
+12 Test conditions, test case, test procedure and test suits.-----------------------------------------------------
+------------------------------------------------------------
+
+
+
+A test condition is An item or event of a component or system that could be verified by one or more test cases,
+
+A test case is A set of input values, preconditions, expected results and postconditions,
+developed for a particular objective(s) or test condition(s)
+
+A proper test case usually comes with a predefined expected result, telling you what to expect when completing a test case. Similarly, it is common good practice to define the initial expected.
+
+-------------
+
+The third step in testing is to write the steps that we need to perform to execute the test …
+
+those steps are called a test procedure
+
+This is beyond the scope of this syllabus but I’ll talk a bit about it to demonstrate how test cases are used
+
+So if you want actually to test the number “40”, can u just type 40 … no …
+
+u need to set up the software to be ready to run a test case
+
+Therefore, to test 40 you would
+
+1Launch the “ExpertWave” application
+
+2. Select the ‘New Employee” menu item from the “Employee” menu, and ‘New Employee’ dialog should be displayed
+
+3. Check that the cursor blinking inside the ‘age’ field.
+
+4. Type in ‘40’ and click the “OK” button.
+
+5. Check that the message “Thank you” is displayed
+
+Do we really need to go into these detailed steps yes Do you need to write in steps yes
+
+so you might ask why
+
+Because this test procedure can be executed by anyone other than you
+
+So you want it to be as clear as possible for anyone to understand and execute without any ambiguities
+
+----------
+
+A test suite allows you to categorize test procedures in such a way that they match your planning and analysis needs.
+
+Do you run functional and performance tests? Create two suites and label them accordingly.
+
+You can create test suites as many as you need. One for functional tests, one for performance test,
+
+one for recovery test, one for lengthy test procedures that may need to run through the night,
+
+one for quick smoke test procedures to make sure the build is good and so on.
+
+A Test procedure can be added to multiple test suites and test plans.
+
+
+------------------------------------------------------------
+13 Test Proccess.-----------------------------------------------------
+------------------------------------------------------------
